@@ -160,10 +160,11 @@ class NamedShape {
 }
 
 // Class inheritence
-class Square: NamedShape{
+class Square: NamedShape {
     var sideLength: Double
     init(sideLength: Double) {
         self.sideLength = sideLength
+        super.init(name: "Sqaure")
         numberOfSides = 4
     }
     
@@ -174,6 +175,5 @@ class Square: NamedShape{
 
 class Object {}
 
-let object
 
 
